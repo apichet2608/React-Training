@@ -1,0 +1,36 @@
+@import "@fontsource/luckiest-guy";
+@import '@fontsource-variable/inter';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Responsive font sizes for different screen sizes */
+@media (min-width: 534px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 640px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1072px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1520px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1872px) {
+    html {
+        font-size: 16px;
+    }
+}
